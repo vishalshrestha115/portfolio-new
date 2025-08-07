@@ -19,7 +19,7 @@ import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpg";
+
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title} | Modern Next.js Developer Portfolio Template`,
@@ -75,7 +75,14 @@ export default function IndexPage() {
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
         <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
-
+ <Image
+      src="/profile-img.jpg"
+      alt="Vishal Shrestha"
+      width={160}
+      height={160}
+      priority
+      className="rounded-full border-4 border-primary w-40 h-40 object-cover"
+    />
           <AnimatedText
             as="h1"
             delay={0.2}
