@@ -23,20 +23,6 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
     name: "express.js",
     description:
       "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
@@ -51,11 +37,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Postgres SQL",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+      "Store and retrieve data seamlessly with a flexible and scalable SQL database.",
     rating: 5,
-    icon: Icons.mongodb,
+    icon: Icons.postgres,
   },
   {
     name: "Typescript",
@@ -93,34 +79,12 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
     rating: 4,
     icon: Icons.redux,
   },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
   {
     name: "Tailwind CSS",
     description:

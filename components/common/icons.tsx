@@ -34,7 +34,7 @@ import {
 } from "lucide-react";
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
-import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { BsFacebook, BsInfoCircle, BsInstagram, BsQuestionCircle } from "react-icons/bs";
 import {
   HiBriefcase,
   HiOutlineExternalLink,
@@ -59,6 +59,7 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostgresql,
   SiReact,
   SiRedux,
   SiSocketdotio,
@@ -68,6 +69,8 @@ import {
 } from "react-icons/si";
 
 export const Icons = {
+  facebook: BsFacebook,
+  instagramm: BsInstagram,
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,
@@ -96,6 +99,7 @@ export const Icons = {
   chevronDown: ChevronDown,
   laughEmoji: BiLaugh,
   check: Check,
+  postgres: SiPostgresql,
   infoMark: BsInfoCircle,
   questionMark: BsQuestionCircle,
   link: HiOutlineLink,

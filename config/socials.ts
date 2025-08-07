@@ -10,26 +10,32 @@ interface SocialInterface {
 export const SocialLinks: SocialInterface[] = [
   {
     name: "Github",
-    username: "@namanbarkiya",
+    username: "@vishalshrestha115",
     icon: Icons.gitHub,
-    link: "https://github.com/namanbarkiya",
+    link: "https://github.com/vishalshrestha115",
   },
   {
     name: "LinkedIn",
     username: "Vishal Shrestha",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
-  },
-  {
-    name: "Twitter",
-    username: "@namanbarkiya",
-    icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
+    link: "https://www.linkedin.com/in/vishal-shrestha-24a31b370/",
   },
   {
     name: "Gmail",
-    username: "naman.barkiya02",
+    username: "shresthavishal0001",
     icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "mailto:shresthavishal0001@gmail.com",
+  },
+  {
+    name: "Facebook",
+    username: "",
+    icon: Icons.facebook,
+    link: "https://www.facebook.com/vishal.shrestha.792624?rdid=l5TJ6oEddo29k84m&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DfL5rRJBK%2F#",
+  },
+  {
+    name: "Instagram",
+    username: "",
+    icon: Icons.instagramm,
+    link: "https://www.instagram.com/beesaalshrestha/",
   },
 ];

@@ -46,15 +46,6 @@ export const pagesConfig: PagesConfig = {
       description: "Contact Vishal Shrestha.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Vishal Shrestha's open-source contributions and community involvement.",
-    },
-  },
   resume: {
     title: "Resume",
     description: "Vishal Shrestha's resume.",
