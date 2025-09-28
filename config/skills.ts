@@ -22,39 +22,46 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.react,
   },
+   {
+  name: "Supabase",
+  description:
+    "An open-source backend-as-a-service providing authentication, storage, and scalable Postgres databases.",
+  rating: 4,
+  icon: Icons.supabase,
+},
   {
     name: "express.js",
     description:
       "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
+    rating: 3,
     icon: Icons.express,
   },
   {
     name: "Node.js",
     description:
       "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
+    rating: 4,
     icon: Icons.nodejs,
   },
   {
     name: "Postgres SQL",
     description:
       "Store and retrieve data seamlessly with a flexible and scalable SQL database.",
-    rating: 5,
+    rating: 4,
     icon: Icons.postgres,
   },
   {
     name: "Typescript",
     description:
       "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+    rating: 4,
     icon: Icons.typescript,
   },
   {
     name: "Javascript",
     description:
       "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
+    rating: 4,
     icon: Icons.javascript,
   },
   {
@@ -89,7 +96,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Tailwind CSS",
     description:
       "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
+    rating: 4,
     icon: Icons.tailwindcss,
   },
   {
@@ -103,7 +110,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Bootstrap",
     description:
       "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
+    rating: 3,
     icon: Icons.bootstrap,
   },
   {
@@ -120,13 +127,7 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.netlify,
   },
-  {
-  name: "Supabase",
-  description:
-    "An open-source backend-as-a-service providing authentication, storage, and scalable Postgres databases.",
-  rating: 4,
-  icon: Icons.supabase,
-}
+ 
 ];
 
 export const skills = skillsUnsorted
