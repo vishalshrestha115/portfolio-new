@@ -28,6 +28,51 @@ export interface ProjectInterface {
 }
 
 export const Projects: ProjectInterface[] = [
+{
+  id: "austuverse",
+  companyName: "AU Stuverse",
+  type: "Professional",
+ category: ["Web Dev", "Full Stack","UI/UX"],
+ 
+  shortDescription:
+    "Built a community-driven platform for international students in Australia, with authentication, dashboards, and real-time chat features.",
+  websiteLink: "https://aussie-uni-connect.vercel.app/",
+  techStack: ["Next.js", "React", "Node.js", "PostgreSQL", "Supabase", "Typescript"],
+  startDate: new Date("2024-04-01"),
+  endDate: new Date("2025-09-01"), // or "Present" if you extend the type
+  companyLogoImg: "/projects/austuverse.png",
+
+  descriptionDetails: {
+    paragraphs: [
+      "AU Stuverse is a community-driven platform designed to support international students and newcomers in Australia by providing resources, events, and peer connections.",
+      "Implemented authentication, personalized dashboards, and community features with a strong focus on scalability and user experience.",
+      "Deployed on Vercel with a robust backend ensuring smooth interaction and real-time engagement."
+    ],
+    bullets: [
+      "Launched AU Stuverse, connecting 500+ students to resources and events.",
+      "Enhanced engagement with real-time chat and community groups.",
+      "Optimized deployment and scalability on Vercel."
+    ]
+  },
+  pagesInfoArr: [
+    {
+      title: "Student Dashboard",
+      description: "Personalized dashboard with resources, events, and peer connections",
+      imgArr: ["/projects/austuverse/dashboard.png"]
+    },
+    {
+      title: "Real-Time Chat",
+      description: "Interactive chat system enabling instant connections between students",
+      imgArr: ["/projects/austuverse/chat.png"]
+    },
+    {
+      title: "Community Events",
+      description: "Event management and participation system tailored for international students",
+      imgArr: ["/projects/austuverse/events.png"]
+    }
+  ]
+},
+
   {
     id: "black-tech",
     companyName: "Chat application",

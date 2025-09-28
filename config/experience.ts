@@ -15,27 +15,7 @@ export interface ExperienceInterface {
 }
 
 export const experiences: ExperienceInterface[] = [
-  {
-    id: "austuverse",
-    position: "Full Stack Developer",
-    company: "AU Stuverse",
-    location: "Australia (Remote)",
-    startDate: new Date("2024-04-01"),
-    endDate: "Present",
-    description: [
-      "Built a community-driven platform designed for international students and newcomers in Australia.",
-      "Implemented authentication, personalized dashboards, and resources to help students settle into university life.",
-      "Deployed on Vercel with strong focus on scalability and smooth user experience.",
-    ],
-    achievements: [
-      "Launched AU Stuverse, connecting 500+ international students to resources, events, and peer support.",
-      "Enhanced engagement with real-time chat and community features, easing the transition for newcomers.",
-      "Optimized performance with Next.js and server-side rendering for seamless access worldwide.",
-    ],
-    skills: ["Next.js", "React", "Node.js","Supabase", "Typescript"],
-    companyUrl: "https://aussie-uni-connect.vercel.app",
-    logo: "/AU.png",
-  },
+  
   {
     id: "ubs",
     position: "Backend Developer",
