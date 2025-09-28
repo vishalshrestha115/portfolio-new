@@ -66,6 +66,7 @@ import {
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiSupabase,
 } from "react-icons/si";
 
 export const Icons = {
@@ -125,6 +126,7 @@ export const Icons = {
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
+   supabase: SiSupabase,
   gmail: SiGmail,
   twitter: SiTwitter,
   linkedin: SiLinkedin,

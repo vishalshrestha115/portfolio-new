@@ -110,7 +110,7 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 4,
     icon: Icons.mysql,
   },
   {
@@ -120,6 +120,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.netlify,
   },
+  {
+  name: "Supabase",
+  description:
+    "An open-source backend-as-a-service providing authentication, storage, and scalable Postgres databases.",
+  rating: 4,
+  icon: Icons.supabase,
+}
 ];
 
 export const skills = skillsUnsorted
